@@ -10,7 +10,7 @@
 ![Prototype](https://img.shields.io/badge/prototype-in%20dft--fundamentals-2ea043)
 
 > **Status: planned.** A working stuck-at fault simulator + coverage tool already
-> exists in [`dft-fundamentals/atpg`](https://github.com/SaroshGabriel/dft-fundamentals);
+> exists in [`dft-fundamentals/atpg`](https://github.com/ChargeInMotion/dft-fundamentals);
 > this repo will package and extend it into a real ATPG tool.
 
 ---
@@ -31,7 +31,7 @@ patterns that detect manufacturing faults — then report the fault coverage.
 ## Already Working (in dft-fundamentals)
 
 The prototype this builds on:
-[`dft-fundamentals/atpg/fault_simulator.py`](https://github.com/SaroshGabriel/dft-fundamentals/blob/main/atpg/fault_simulator.py)
+[`dft-fundamentals/atpg/fault_simulator.py`](https://github.com/ChargeInMotion/dft-fundamentals/blob/main/atpg/fault_simulator.py)
 — SA0/SA1 modeling, fault detection by propagation to a primary output, coverage
 computation, and minimal detecting set on a small AND→OR circuit (currently by
 exhaustive search; PODEM is the upgrade this repo targets).
@@ -47,10 +47,10 @@ exhaustive search; PODEM is the upgrade this repo targets).
 
 ## Related
 
-- [`dft-fundamentals`](https://github.com/SaroshGabriel/dft-fundamentals) — the foundations + working prototype
-- [`dft-readiness-checker`](https://github.com/SaroshGabriel/dft-readiness-checker) — pre-scan netlist checks
-- [`openroad-dft-flow`](https://github.com/SaroshGabriel/openroad-dft-flow) — where generated patterns plug into a real flow
+- [`dft-fundamentals`](https://github.com/ChargeInMotion/dft-fundamentals) — the foundations + working prototype
+- [`dft-readiness-checker`](https://github.com/ChargeInMotion/dft-readiness-checker) — pre-scan netlist checks
+- [`openroad-dft-flow`](https://github.com/ChargeInMotion/openroad-dft-flow) — where generated patterns plug into a real flow
 
 ## Author
 
-**Sarosh (KJ)** · [github.com/SaroshGabriel](https://github.com/SaroshGabriel) · saroshjibreel@gmail.com
+**Sarosh (KJ)** · [github.com/ChargeInMotion](https://github.com/ChargeInMotion) · sarosh@chargeinmotion.dev
